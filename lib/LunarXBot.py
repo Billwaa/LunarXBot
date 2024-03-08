@@ -100,7 +100,7 @@ class Bot:
     def clawOpen(self, angle = -1):
 
         if angle == -1:
-            self.claw.angle = self.angleClawClosed
+            self.claw.angle = self.angleClawOpened
         else:
             self.claw.angle = angle
 
