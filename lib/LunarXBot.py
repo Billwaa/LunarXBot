@@ -64,8 +64,8 @@ class Bot:
         ## Program Parameters
 
         # Claw Angle
-        self.angleClawClosed = 10
-        self.angleClawOpened = 60
+        self.angleClawClosed = 90
+        self.angleClawOpened = 130
 
         # LED Timer
         self.time_LED = time.monotonic()
