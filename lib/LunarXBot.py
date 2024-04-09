@@ -1,6 +1,6 @@
 # LunarX Bot Library
 # Yu Hin Hau
-# 3/3/2024
+# April 9, 2024
 # billwaahau@gmail.com
 
 
@@ -86,7 +86,7 @@ class Bot:
 
     # Command the Claw to Specific Angle
     def clawAngle(self, angle):
-        self.claw.angle = angle
+        self.claw.angle = int(angle)
 
     # Command the Claw to Close
     def clawClose(self, angle = -1):
@@ -103,4 +103,6 @@ class Bot:
             self.claw.angle = self.angleClawOpened
         else:
             self.claw.angle = angle
+
+
 
